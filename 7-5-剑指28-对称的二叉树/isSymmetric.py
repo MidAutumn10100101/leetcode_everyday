@@ -7,5 +7,13 @@ class TreeNode:
 
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:
-        if not root:
-            return
+        def recur(L: TreeNode, R: TreeNode):
+            if not L and not R:
+                return True
+            if not L or not R or L.val != R.val:
+                return False
+            return recur(L.left,R.right) and recur(L.right,R.left)
+        if root:
+            return recur(root.left,root.right)
+        else:
+            return True
