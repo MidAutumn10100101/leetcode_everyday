@@ -12,3 +12,10 @@ class Solution:
         return res
 
 
+import redis
+
+pedis = redis.Redis(host='10.249.44.135',port=6379,decode_response=True)
+
+a =pedis.hget('realtime-000001.SZ','sellprice1')
+isinstance(a, dict)
+a['db']
