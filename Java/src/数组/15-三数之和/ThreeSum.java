@@ -1,11 +1,12 @@
 
+import java.lang.reflect.Array;
 import java.util.*;
 
 public class ThreeSum {
     public static void main(String[] args) {
         System.out.println("solution");
-        int[] nums = {0, 0 , 0 ,0};
-        ArrayList<ArrayList> list = threeSumSimple(nums);
+        int[] nums = {-1, 0, 1, 2, -1, -4};
+        List<List<Integer>> list = threeSumSimple(nums);
         System.out.println(list);
     }
     public static ArrayList<ArrayList> threeSum(int[] nums){
@@ -26,7 +27,35 @@ public class ThreeSum {
         }
         return listMain;
     }
-    public static ArrayList<ArrayList> threeSumSimple(int[] nums){
+    public static List<List<Integer>> threeSumSimple(int[] nums){
+        List<List<Integer>> listMain = new ArrayList<List<Integer>>();
+        Arrays.sort(nums);
+        int length = nums.length;
+        for(int i = 0; i < length - 2; i++){
+            if(nums[i] > 0)
+                break;
+            if(i > 0 && nums[i] == nums[i-1])
+                continue;
+            int left = i + 1;
+            int right = length - 1;
+            while (left < right){
+                int sum = nums[i] + nums[left] + nums[right];
+                if(sum < 0){
+                    while (left < right && nums[left] == nums[++left]);
+                }
+                else if(sum > 0){
+                    while (left < right && nums[right] == nums[--right]);
+                }
+                else {
+                    listMain.add(new ArrayList<Integer>(Arrays.asList(nums[i], nums[left], nums[right])));
+                    while (left < right && nums[left] == nums[++left]);
+                    while (left < right && nums[right] == nums[--right]);
+                }
+            }
+        }
+        return listMain;
+    }
+    public static ArrayList<ArrayList> threeSumError(int[] nums){
         ArrayList<ArrayList> listMain = new ArrayList<>();
         Arrays.sort(nums);
         int numsLength = nums.length;
