@@ -12,6 +12,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/数组/26-删除排序数组重复项" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/数组/33-搜索旋转排序数组" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/数组/34-在排序数组中查找元素的第一个和最后一个位置" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/数组/48-旋转图像" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/数组/54-螺旋矩阵" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
