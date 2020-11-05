@@ -16,6 +16,12 @@
       <sourceFolder url="file://$MODULE_DIR$/src/数组/54-螺旋矩阵" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/数组/55-跳跃游戏" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/数组/56-合并区间" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/多线程" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/多线程/打印多线程" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/字符串" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/字符串/13-罗马数字转整数" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/字符串/14-最长公共前缀" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/字符串/20-有效的括号" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
