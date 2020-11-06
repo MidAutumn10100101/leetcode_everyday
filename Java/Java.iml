@@ -22,6 +22,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/字符串/13-罗马数字转整数" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/字符串/14-最长公共前缀" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/字符串/20-有效的括号" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/字符串/28-实现strStr()" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/字符串/125验证回文串" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
