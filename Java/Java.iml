@@ -24,6 +24,12 @@
       <sourceFolder url="file://$MODULE_DIR$/src/字符串/20-有效的括号" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/字符串/28-实现strStr()" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/字符串/125验证回文串" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/字符串/344-反转字符串" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/字符串/387-字符串中第一个唯一字符" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/哈希" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/哈希/136-只出现一次数字" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/哈希/202-快乐数" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/哈希/204-计数质数" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
