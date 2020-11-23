@@ -33,6 +33,10 @@
       <sourceFolder url="file://$MODULE_DIR$/src/哈希/217-存在重复元素" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/哈希/242-有效的字母异位词" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/哈希/350-两数组交集" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/树" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/树/101-对称二叉树" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/树/104二叉树最大深度" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/树/108-将有序数组转换为二叉搜索树" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
